@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  .menuItems {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.button {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.container {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.menuItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menuItem {
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menuItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menuItem img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.menuItemDetails {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.menuItemTitle {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.menuItemDescription {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.menuItemPrice {
+  font-size: 24px;
+  font-weight: bold;
+}
