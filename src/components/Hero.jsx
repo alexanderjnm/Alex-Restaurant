@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           </p>
           <div className={classes.buttons}>
-          <button className={classes.buttonOrder} onClick={() => window.location.href='/menu'}>Menu</button>
+          <button className={classes.buttonSee}><a href="/menu">Menu <AiOutlineArrowDown/> </a></button>
             <button className={classes.buttonSee}><a href="/reserva">Make a Reservation <AiOutlineArrowDown/> </a></button>
           </div>
         </div>
